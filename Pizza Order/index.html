@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Using Metadata  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pizza Order">
+    <meta name="robots" content="noindex, nofollow">
+    <!--Title of this page-->
+    <title>Pizza Order Page</title>
+    <!--Linked this page to css page , font awesome, googleapis and gstatic fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Main div of this page-->
+    <div class="wrapper">
+        <header>
+            <!-- Navbar of this page -->
+            <div class="navbar">
+                <ul>    
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#Order">Order</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#signin">Signin</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <!--welcome text -->
+            <div class="welcome">
+                <h1>Welcome to Pizza Shop</h1>
+            </div>
+            <!--Used form tag for user input-->
+            <form>
+                <!--Made div for asking user for choosing the size of pizza-->
+                <div class="form-group">
+                    <label>Choose your size:</label>
+                    <div class="radio-options">
+                        <input type="radio" id="small" name="size" value="small">
+                        <label for="small">Small</label>
+                        <input type="radio" id="medium" name="size" value="medium">
+                        <label for="medium">Medium</label>
+                        <input type="radio" id="large" name="size" value="large">
+                        <label for="large">Large</label>
+                    </div>
+                </div>
+                <!--Made div for asking user for choosing the crust for pizza-->
+                <div class="form-group">
+                    <label>Choose your crust:</label>
+                    <div class="radio-options">
+                        <input type="radio" id="thin" name="crust" value="thin">
+                        <label for="thin">Thin</label>
+                        <input type="radio" id="thick" name="crust" value="thick">
+                        <label for="thick">Thick</label>
+                        <input type="radio" id="stuffed" name="crust" value="stuffed">
+                        <label for="stuffed">Stuffed</label>
+                    </div>
+                </div>
+                
+                <!--Made div for asking user for choosing the toppings for pizza-->
+                <div class="form-group">
+                    <label>Choose your toppings:</label>
+                    <div class="checkbox-options">
+                        <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+                        <label for="pepperoni">Pepperoni</label>
+                        <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+                        <label for="mushrooms">Mushrooms</label>
+                        <input type="checkbox" id="onions" name="toppings" value="onions">
+                        <label for="onions">Onions</label>
+                        <input type="checkbox" id="sausage" name="toppings" value="sausage">
+                        <label for="sausage">Sausage</label>
+                        <input type="checkbox" id="bacon" name="toppings" value="bacon">
+                        <label for="bacon">Bacon</label>
+                        <input type="checkbox" id="extra_cheese" name="toppings" value="extra_cheese">
+                        <label for="extra_cheese">Extra Cheese</label>
+                        <input type="checkbox" id="black_olives" name="toppings" value="black_olives">
+                        <label for="black_olives">Black Olives</label>
+                        <input type="checkbox" id="green_peppers" name="toppings" value="green_peppers">
+                        <label for="green_peppers">Green Peppers</label>
+                        <input type="checkbox" id="pineapple" name="toppings" value="pineapple">
+                        <label for="pineapple">Pineapple</label>
+                        <input type="checkbox" id="spinach" name="toppings" value="spinach">
+                        <label for="spinach">Spinach</label>
+                    </div>
+                </div>
+
+                <!--Made div for asking user for choosing the sauces for pizza-->
+                <div class="form-group">
+                    <label>Choose your sauce:</label>
+                    <div class="radio-options">
+                        <input type="radio" id="tomato" name="sauce" value="tomato">
+                        <label for="tomato">Tomato</label>
+                        <input type="radio" id="bbq" name="sauce" value="bbq">
+                        <label for="bbq">BBQ</label>
+                        <input type="radio" id="alfredo" name="sauce" value="alfredo">
+                        <label for="alfredo">Alfredo</label>
+                    </div>
+                </div>
+               <!--Made button for placing order-->
+                <button type="submit">Place Order</button>
+            </form>
+        </main>
+            
+        
+        <!--Footer of the page-->
+        <footer>
+            <div class="footer">
+                <div class="row">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="row">
+                    <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Career</a></li>
+                    </ul>
+                    </div>
+                    <div class="row">
+                        Neel Hingrajiya Copyright © 2024  - All rights reserved || Designed By: Neel 
+                        </div>
+                        </div>
+        </footer>
+    </div>
+</body>
+</html>
